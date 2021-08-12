@@ -22,7 +22,7 @@ TBD to add some general explanation for the workshop user
 
 ![Step 2](/images/20_Initiate_UFTOne_Instance/Ec2_AMI.png)
 
-3. Change to `Public images`.
+3. Change to **Public images**.
 
 ![Step 3](/images/20_Initiate_UFTOne_Instance/ami_public.png)
 
