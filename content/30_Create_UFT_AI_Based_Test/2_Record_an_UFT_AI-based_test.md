@@ -88,7 +88,7 @@ The below steps are for recording business flow of loging into the Advantage Onl
 	
 	**Note:**  
 
-	The checkpoint for verifying existence applies to all visual elements and texts.
+	The checkpoint for verifying existence applies to all **Visual elements** and **Texts**.
 	
 	The checkpoint for verifying states applies to only objects with an **On/Off** state, such as toggles, check boxes, and radio buttons.
 	
@@ -147,8 +147,43 @@ The below steps are for recording business flow of loging into the Advantage Onl
 11. Hover over on **Checkout** button and select **Click** operation
 
 	**AIUtil("button", "CH ECKOUT ($849.99)").Click**
-
-
-
-
 	
+12. Click on the **NEXT** button on the **ORDER PAYMENT** screen
+
+	**AIUtil("button", "NEXT").Click**
+	
+13. To proceed with the **SafePay** payment option, enter the Username, Password and untick the "save changes in profile for future use" (as this will impact the test execution)
+
+	![step 4](/images/30_Create_UFT_AI_Based_Test/order_payment.png)
+	
+	**AIUtil("input", "SafePay usemame").Type "aidemo"**
+
+	**AIUtil("input", "SafePay password").Type "AIdemo1"**
+	
+	**AIUtil("check_box", "Save changes in profile for future J59").SetState "Off"**
+	
+	Click on the **PAY NOW** button
+	
+	**AIUtil("button", "PAY NOW").Click**
+	
+	**Also notice that the "MaterCard" option icon on the ORDER PAYMENT screen is not recognized using AI based identification. You can provide feedback about this to Micro Focus R&D team by following the instructions on** [Feedback Tool to share about AI based object identication]()
+
+14. Add a **Checkpoint** to verify successful payment confirmation
+	
+	**AIUtil.FindTextBlock("Thank you for buying with Advantage").CheckExists True**
+	
+	![step 5](/images/30_Create_UFT_AI_Based_Test/order_confirmation.png)
+	
+15. Click on the **profile** icon and select **Sign out** to logout from the AOS application
+
+	**AIUtil("profile", micAnyText, micFromTop, 1).Click**
+
+	**AIUtil.FindTextBlock("Sign out").Click**
+	
+16. Stop the recording and you can view the AI based test script generated for the above steps
+
+	To stop the recording, press the exit button to close the toolbar.
+	
+17. Close the browser window
+
+You can update the existing AI based test steps to identify the objects in more unique way, please refer the Micro Focus [ADM Help](https://admhelp.microfocus.com/uft/en/15.0-15.0.2/UFT_Help/Content/User_Guide/AI-based-testing-concept.htm#mt-item-0) article for further details
