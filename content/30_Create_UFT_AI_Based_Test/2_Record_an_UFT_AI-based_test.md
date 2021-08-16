@@ -1,5 +1,5 @@
 +++
-title = "Record an UFT AI-based test"
+title = "Record an UFT AI-based Test"
 chapter = false
 weight = 2
 +++
