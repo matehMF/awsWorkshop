@@ -6,7 +6,7 @@ weight = 3
 
 ## UFT Test Execution
 
-To run the test that has been created in the previous section, you can configure UFT One to launch a browser window and open the URL of the AOS application
+To run the test that has been created in the previous section, you can configure UFT One to launch a browser window and open the AOS application URL
 
 You can define record and run settings using the UFT **Record and Run Settings** option
 
@@ -34,15 +34,17 @@ You can define record and run settings using the UFT **Record and Run Settings**
 
 	**"Save still image captures to results": "Always"**
 	
-	<![step 3](/images/30_Create_UFT_AI_Based_Test/screen_capture.png)>
+	![step 3](/images/30_Create_UFT_AI_Based_Test/screen_capture.PNG)
 	
 5. Click on **Run** button from the UFT toolbar to execute the test
 
-Alternatively the below lines of code can be added at the beginning of the test to set the test run settings:
+Alternatively the below lines of code can be added at the beginning of the test to open Microsoft Internet Explorer and navigate to AOS URL
 
-	**AIUtil.SetContext Browser("creationtime:=0")**
+**SystemUtil.Run "C:\Program Files\internet explorer\iexplore.exe"**
+	
+**AIUtil.SetContext Browser("creationtime:=0")**
 
-	**Browser("creationtime:=0").Navigate "https://www.advantageonlineshopping.com"**
+**Browser("creationtime:=0").Navigate "https://www.advantageonlineshopping.com"**
 
 ## Debug UFT AI Test
 

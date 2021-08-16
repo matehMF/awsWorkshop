@@ -52,4 +52,5 @@ In this version of **UFT One 15.0.2** release, the AI Features are enabled by de
 	
 	You can see below highlighted icons on the UFT One toolbar that enable you to use AI based features in UFT One
 	
-	![step 3](/images/30_Create_UFT_AI_Based_Test/ai_toolbar_icons.PNG)
+	![step 3](/images/30_Create_UFT_AI_Based_Test/ai_toolbar_icons.png)
+	
