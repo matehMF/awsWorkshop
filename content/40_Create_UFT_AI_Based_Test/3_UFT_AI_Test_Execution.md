@@ -77,7 +77,8 @@ Alternatively the below lines of code can be added at the beginning of the test 
 
 	An object containing the settings for the current test run. These settings enable you to modify test settings during the test run, overriding the global settings defined in **Tools > Options > GUI Testing > AI.**
 
-	Refer the [ADM Help](https://admhelp.microfocus.com/uft/en/15.0-15.0.2/UFT_Help/Subsystems/OMRHelp/Content/AI/AIPackageLib~AIRunSettings.html?Highlight=AIUtil) for complete details regarding **AIRunSettings Object**
+	Refer the Micro Focus [ADM Help](https://admhelp.microfocus.com/uft/en/15.0-15.0.2/UFT_Help/Subsystems/OMRHelp/Content/AI/AIPackageLib~AIRunSettings.html?Highlight=AIUtil) for complete details regarding **AIRunSettings Object**
 
-4. If AI based object identification not working properly and needs to update a AI based test step, refer the **Identify Test Objects by AI Inspect** for the details
+4. If AI based object identification not working properly and needs to update an AI-based test step, refer the [Test Objects Identification using AI Inspect](http://localhost:1313/40_create_uft_ai_based_test/5_ai_inspect.html) for the details
 
+5. Also suggested to refer the [Tips and tricks for AI-based testing](https://admhelp.microfocus.com/uft/en/15.0-15.0.2/UFT_Help/Content/User_Guide/AI-based-testing-tips-and-tricks.htm) article from Micro Focus ADM Help, which provides tips and tricks for writing AI-based tests in UFT One.

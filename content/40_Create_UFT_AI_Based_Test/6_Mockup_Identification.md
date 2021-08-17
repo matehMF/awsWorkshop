@@ -43,15 +43,13 @@ Inspect application mockups
 
 ## Create AI-based test using Mockup identification
 
-Thanks to the Computer Vision, you can **Start test Design without application**
+Thanks to the Computer Vision, you can **start test Design without application**. You can easily Build an AI-based test script based on application Mockup
 
-You can easily Build an AI-based test script based on application Mockup
+Now let's create an AI based test script for AOS application login using application Mockup screens
 
 As a prerequisite, store AOS application images in **.jpg, .jpeg, or .png** format in a local folder path: "C:\Users\demo\Documents\Mockups".
 
 **Note:** You can right click on the **Mockup images** of AOS application in the below steps to download and save them to the local folder
-
-Now let's create an AI based test script for AOS application login using application Mockup screens
 
 1. In the UFT One toolbar, click the down arrow near the **AI Identification** button  and select the **AI Mockup Identification**.
 
