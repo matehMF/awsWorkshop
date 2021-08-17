@@ -14,7 +14,7 @@ In addition, customer expectations are as high as timelines are short. Deliverin
 - Increasing stakeholder visibility across every value stream.
 - Collaborating continuously and acting upon feedback at each stage.
 
-![Micro Focus DevOps](/images/introduction/mf-devops.png)
+![Micro Focus DevOps](/images/10_introduction/mf-devops.png)
 
 Enabling a DevOps culture will be the engine of change that brings real benefits to your organization. These benefits include:
 
