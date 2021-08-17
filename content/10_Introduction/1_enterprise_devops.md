@@ -5,9 +5,7 @@ weight: 11
 pre: "<b>1.1 </b>"
 ---
 
-Organizations are increasingly adopting a DevOps approach by bringing their development and operations teams closer together to build and release high-quality applications to production at any time. DevOps attempts to remove artificial impediments to delivering applications and empowers the delivery team to be responsible and accountable for the applications they build and release.
-
-In addition, customer expectations are as high as timelines are short. Delivering value at the “speed of business” requires aligning business needs with the application delivery process—in other words, tuning it up to make it work better. That process includes:
+Before diving into the innovations around UFT One and AI, it's important to remember the role that DevOps plays in delivering high-quality applications to production at any time. It attempts to remove artificial impediments and empowers the team to be responsible and accountable for the applications they build and release. And with customer expectations are as high as timelines are short, delivering value at the “speed of business” requires aligning business needs with the application delivery process. Today, that process includes:
 
 - Removing constraints to avoid technical debt.
 - Automating manual work—everything from build, to deploy, to testing.
@@ -16,7 +14,7 @@ In addition, customer expectations are as high as timelines are short. Deliverin
 
 ![Micro Focus DevOps](/images/10_introduction/mf-devops.png)
 
-Enabling a DevOps culture will be the engine of change that brings real benefits to your organization. These benefits include:
+Therefore, enabling a DevOps culture will be the engine of change that brings real benefits to your organization, such as:
 
 - **Boosting business confidence.** DevOps encourages teams to expose end-users to the applications as early as possible to get feedback faster.
 - **Building a better experience.** Using continuous feedback, real data and KPIs, your DevOps team can make course corrections immediately.
