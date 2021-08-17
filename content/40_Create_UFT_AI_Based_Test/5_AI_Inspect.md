@@ -1,8 +1,9 @@
-+++
-title = "Test Objects Identification using AI Inspect"
-chapter = false
-weight = 5
-+++
+---
+title: "Test Objects Identification using AI Inspect"
+chapter: false
+weight: 45
+pre: "<b>4.5 </b>"
+---
 
 ## UFT One AI Inspect overview
 
@@ -10,7 +11,7 @@ Use **AI inspection** to identify objects in your application under test (AUT), 
 
 To identify all objects on the web page, open the **AI Identification View window** to inspect your application and detect all AI objects in it.
 
-To open the window, do one of the following: 
+To open the window, do one of the following:
 
 1. Click the **AI Identification** toolbar button.
 
@@ -23,7 +24,7 @@ To open the window, do one of the following:
 	The AI Identification View displays an image of the application, highlighting all of the detected objects.
 
 	You can decide whether to show **Visual Element** or **Text**, to see either the objects that UFT One detected visually, or areas of text in the application.
-	
+
 ## Identify Test Objects using UFT One AI Inspect
 
 In the below steps, we are adding an additional AI-based test step using **AI Identification** to the existing AI-based test that was created using **AI Recording** earlier
@@ -33,21 +34,20 @@ In the below steps, we are adding an additional AI-based test step using **AI Id
 2. Click the **AI Identification** toolbar button, click on the **"HP ENVY - 17T TOUCH LAPTOP"** web page opened in previous step
 
 	The **AI Identification View** displays an image of the application, highlighting all of the detected **Visual Element** objects on the page.
-	
-	![step 1](/images/30_Create_UFT_AI_Based_Test/ai_inspect_visual_element.PNG)
-	
+
+	![step 1](/images/40_Create_UFT_AI_Based_Test/ai_inspect_visual_element.PNG)
+
 	Drag and drop the **Visual element "Plus"** button object to the test, just before the **Add to Cart** step to select additional quantity of the item chosen.
-	
+
 	Now the updated test steps looks as below:
 
 	.....................................................
-	
-	**AIUtil("plus").Click**
-	
-	**AIUtil("button", "ADD TO CART").Click**
-	
-	.....................................................
-		
-Similarly you to can use the **AI Identification** to update any existing AI-based test step in your test 
 
-	
+	**AIUtil("plus").Click**
+
+	**AIUtil("button", "ADD TO CART").Click**
+
+	.....................................................
+
+Similarly you to can use the **AI Identification** to update any existing AI-based test step in your test
+

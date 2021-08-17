@@ -1,8 +1,10 @@
-+++
-title = "AWS Account"
-chapter = false
-weight = 2
-+++
+---
+title: "AWS Account"
+chapter: false
+weight: 21
+pre: "<b>2.1 </b>"
+---
+
 {{% notice warning %}}
 You are responsible for the cost of the AWS services used while running this workshop in your AWS account.
 {{% /notice %}}
@@ -12,11 +14,11 @@ Your account must have the ability to create new IAM roles and scope other IAM p
 {{% /notice %}}
 
 {{% notice note %}}
-If you already have an AWS account, and have IAM Administrator access, go to 
+If you already have an AWS account, and have IAM Administrator access, go to
 [Provision VPC & Cloud9]({{< ref "#provision-vpc-and-cloud9" >}})
 {{% /notice %}}
 
-## Create an account 
+## Create an account
 
 1. If you don't already have an AWS account with Administrator access: [create
 one now](http://docs.aws.amazon.com/connect/latest/adminguide/gettingstarted.html#sign-up-for-aws)

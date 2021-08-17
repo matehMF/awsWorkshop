@@ -1,8 +1,9 @@
-+++
-title = "View UFT AI Test Run Results"
-chapter = false
-weight = 4
-+++
+---
+title: "View UFT One's AI-based Test Run Results"
+chapter: false
+weight: 44
+pre: "<b>4.4 </b>"
+---
 
 ## UFT AI Test Run Report
 
@@ -16,4 +17,4 @@ You can view and inspect the AI steps in UFT One HTML report. The report should 
 
 You can search for test step/objects using the search box from the UFT One report.
 
-![Step 1](/images/30_Create_UFT_AI_Based_Test/uft_run_report1.PNG)
+![Step 1](/images/40_Create_UFT_AI_Based_Test/uft_run_report1.PNG)

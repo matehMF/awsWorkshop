@@ -1,8 +1,9 @@
-+++
-title = "Launch EC2 Instance"
-chapter = false
-weight = 2
-+++
+---
+title: "Launch EC2 Instance"
+chapter: false
+weight: 32
+pre: "<b>3.2 </b>"
+---
 
 ## Launch EC2 Instance
 
@@ -10,7 +11,7 @@ weight = 2
 
 1. It is recommended to select **m4.xlarge** instance type.
 
-![Step 1](/images/20_Initiate_UFTOne_Instance/choose_instance.png)
+![Step 1](/images/30_Initiate_UFTOne_Instance/choose_instance.png)
 
 Click **Next: Configure Instance Details**.
 
@@ -18,7 +19,7 @@ Click **Next: Configure Instance Details**.
 
 2. Configure based on your account requirements. Recommended to follow your organization requirements.
 
-![Step 2](/images/20_Initiate_UFTOne_Instance/instance_details.png)
+![Step 2](/images/30_Initiate_UFTOne_Instance/instance_details.png)
 
 Click **Next: Add Storage**.
 
@@ -26,7 +27,7 @@ Click **Next: Add Storage**.
 
 3. It is recommended to have at least 80 GB in Root **Volume Type**.
 
-![Step 3](/images/20_Initiate_UFTOne_Instance/add_storage.png)
+![Step 3](/images/30_Initiate_UFTOne_Instance/add_storage.png)
 
 Click **Next: Add Tags**.
 
@@ -34,7 +35,7 @@ Click **Next: Add Tags**.
 
 4. It is recommended to add personal **Tags** in order easily identify this instance. As example:
 
-![Step 4](/images/20_Initiate_UFTOne_Instance/tags.png)
+![Step 4](/images/30_Initiate_UFTOne_Instance/tags.png)
 
 Click **Next: Configure Security Group**.
 
