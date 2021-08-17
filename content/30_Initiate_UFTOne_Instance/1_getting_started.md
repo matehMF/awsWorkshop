@@ -7,8 +7,8 @@ pre: "<b>3.1 </b>"
 
 ## Starting AWS EC2 UFT One Instance
 
-TBD to add some general explanation for the workshop user
-
+In this section we are going to explain how to setup UFT One environment from Marketplace image. The Marketplace details are:
+https://aws.amazon.com/marketplace/pp/prodview-q2d32aqrwglr4
 
 
 **UFT One is Desktop application and should be accesssed via RDP to windows server directly**
@@ -29,4 +29,8 @@ TBD to add some general explanation for the workshop user
 
 4. Add filter **"UFT"** and press Enter.
 
-5. Select the AMI from Marketplace and in **Actions** select **Launch**.
+![Step 3](/images/30_Initiate_UFTOne_Instance/uft_ami_details.png)
+
+5. Select the **UFT 15_02 update...** from Marketplace and in **Actions** select **Launch**.
+
+![Step 3](/images/30_Initiate_UFTOne_Instance/ami_launch.png)
