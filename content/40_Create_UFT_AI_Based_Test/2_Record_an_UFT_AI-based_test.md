@@ -7,7 +7,7 @@ pre: "<b>4.2 </b>"
 
 ## AI Record Overview
 
-**Supported on GUI UFT Mobile and Web tests only, in UFT One versions 15.0.2 and later**
+**Supported in UFT One Web and Mobile GUI tests only, in UFT One versions 15.0.2 or later**
 
 Use the **AI Record** to simplify test creation and improve test automation. Following your clicks, the **AI Record** learns objects and creates test steps. The recording result is a resilient test that can run on multiple platforms and environments.
 
@@ -22,11 +22,11 @@ Recording an AI-based step is made up of three parts: **Inspect, Run, and Add.**
 **AI Record** records a default operation for the object according to its type, unless you select a different operation.
 
 
-## Record an UFT AI-based Test
+## Record an UFT One AI-based Test
 
-The below steps are for recording business flow of loging into the Advantage Online Shopping demo application portal, search for an item and buying it.
+The below steps are for recording business flow of logging into the Advantage Online Shopping demo application portal, searching for an item and buying it.
 
-1. Open the web URL https://www.advantageonlineshopping.com/ for Advantage Online Shopping **(AOS)** demo application in a browser
+1. Open the web URL [www.advantageonlineshopping.com](https://www.advantageonlineshopping.com/) for the Advantage Online Shopping **(AOS)** demo application in a browser
 
 2. Launch the **AI Record** from the toolbar icon
 	UFT One is minimized, and the AI Record toolbar opens at the top of the screen and begins initializing.
@@ -47,13 +47,13 @@ The below steps are for recording business flow of loging into the Advantage Onl
 
 	Click the **Settings** button  and increase **Delay Time**, so that the tool waits more time before inspecting again. (**Default:** 3s, **Range:** 0-60s)
 
-4. Hover over on **profile** object, select the **click** operation on the tooltip. The below test step gets added to the UFT Test and launch the login screen
+4. Hover over on **profile** object, select the **click** operation on the tooltip. The below test step gets added to the UFT One Test and launch the login screen
 
 	**AIUtil("profile").Click**
 
 	The AI Record runs the default operation depending on the object type or runs the selected operation. It adds the step to the test only after the operation is successful.
 
-5. After succesful completion of previous step, **AI Record** inspect and identify the objects on next screen i.e. AOS login screen
+5. After successful completion of previous step, **AI Record** inspect and identify the objects on next screen i.e. AOS login screen
 
 	For input fields, search boxes, and combo boxes, the AI Record may prompt you to enter a value for the recorded step.
 
@@ -81,7 +81,7 @@ The below steps are for recording business flow of loging into the Advantage Onl
 
 6. During recording, you can add a **checkpoint**. That means that you can check the existence or state of an object.
 
-	To confirm succesful login, hover over on logged in Username i.e. text block **"aidemo"** and select **Add Checkpoint**, then select **"Exists"** radio button to add checkpoint step
+	To confirm successful login, hover over on logged in Username i.e. text block **"aidemo"** and select **Add Checkpoint**, then select **"Exists"** radio button to add checkpoint step
 
 	![step 3](/images/30_Create_UFT_AI_Based_Test/checkpoint.png)
 
@@ -111,7 +111,7 @@ The below steps are for recording business flow of loging into the Advantage Onl
 
 	**AIUtil("search").Search "17t"**
 
-	Keyword search should be succesful and display all the items that match the search criteria
+	Keyword search should be successful and display all the items that match the search criteria
 
 	![step 3](/images/30_Create_UFT_AI_Based_Test/keyword_search.png)
 
