@@ -47,10 +47,10 @@ In this version of **UFT One 15.0.2** release, the AI Features are enabled by de
 
 	A blank test opens, showing the AOS_Web test flow in the canvas, and another tab with a blank action, named Action1.
 
-	![step 2](/images/30_Create_UFT_AI_Based_Test/action_flow.PNG)
+	![step 2](/images/40_Create_UFT_AI_Based_Test/action_flow.PNG)
 
 7. Click on Action1 tab to continue with the test design
 
 	You can see below highlighted icons on the UFT One toolbar that enable you to use AI based features in UFT One
 
-	![step 3](/images/30_Create_UFT_AI_Based_Test/ai_toolbar_icons.png)
+	![step 3](/images/40_Create_UFT_AI_Based_Test/ai_toolbar_icons.png)
