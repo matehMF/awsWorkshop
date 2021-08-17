@@ -59,11 +59,11 @@ Now let's create an AI based test script for AOS application login using applica
 
 	**Select the AI identification context: Web**
 
-	![step 2](/images/30_Create_UFT_AI_Based_Test/mockup_images.PNG)
+	![step 2](/images/40_Create_UFT_AI_Based_Test/mockup_images.PNG)
 
 3. Choose the AOS home Mockup image, the **AI Mockup Identification View** inspects the **Visual Elements** from the image by default
 
-	![step 3](/images/30_Create_UFT_AI_Based_Test/mockup_identification1.PNG)
+	![step 3](/images/40_Create_UFT_AI_Based_Test/mockup_identification1.PNG)
 
 	Drag and drop the **Profile** visual element from the Mockup identification to your test step
 
@@ -73,7 +73,7 @@ Now let's create an AI based test script for AOS application login using applica
 
 	**AI Mockup Identification View** inspects the **Visual Elements** from the image as below
 
-	![step 4](/images/30_Create_UFT_AI_Based_Test/mockup_identification2.PNG)
+	![step 4](/images/40_Create_UFT_AI_Based_Test/mockup_identification2.PNG)
 
 	Drag and drop the **Username, Password** input fields and **LOGIN** visual elements from the Mockup identification to your test step
 

@@ -81,19 +81,7 @@ The below steps are for recording business flow of logging into the Advantage On
 
 6. During the recording, you can add a **checkpoint**. That means that you can check the existence or state of an object.
 
-	To confirm successful login, hover over the logged in Username i.e. text block **"aidemo"** and select **Add Checkpoint**, then select **"Exists"** radio button to add checkpoint step
-
-	![step 3](/images/40_Create_UFT_AI_Based_Test/checkpoint.png)
-
-	**AIUtil.FindTextBlock("aidemo").CheckExists True**
-
-	**Note:**
-
-	The checkpoint for verifying existence applies to all **Visual elements** and **Texts**.
-
-	The checkpoint for verifying states applies only to objects with an **On/Off** state, such as toggles, check boxes, and radio buttons.
-
-	### To add a checkpoint
+	##### To add a checkpoint
 
 	Hover over a highlighted object you want the test to check.
 
@@ -107,6 +95,18 @@ The below steps are for recording business flow of logging into the Advantage On
 
 	![step 3](/images/40_Create_UFT_AI_Based_Test/exists_notexists.png)
 
+	To confirm successful login, hover over the logged in Username i.e. text block **"aidemo"** and select **Add Checkpoint**, then select **"Exists"** radio button to add checkpoint step
+
+	![step 3](/images/40_Create_UFT_AI_Based_Test/checkpoint.png)
+
+	**AIUtil.FindTextBlock("aidemo").CheckExists True**
+
+	**Note:**
+
+	The checkpoint for verifying existence applies to all **Visual elements** and **Texts**.
+
+	The checkpoint for verifying states applies only to objects with an **On/Off** state, such as toggles, check boxes, and radio buttons.
+	
 7. Hover over the **Search** icon and select the **Search** operation, enter text “17t” as search keyword
 
 	**AIUtil("search").Search "17t"**
@@ -123,11 +123,9 @@ The below steps are for recording business flow of logging into the Advantage On
 
 	**AIUtil("button", "ADD TO CART").Click**
 
-10. Hover over the **"Shopping_Cart"** icon, select **"+Relation"** to add relation with **Help** icon next to it and then select **Click** operation
+10. You can improve the object identification by adding a relation with another object in proximity
 
-	**AIUtil("shopping_cart", micAnyText, micWithAnchorBelow, AIUtil("help")).Click**
-
-	#### To add a relation:
+	##### To add a relation:
 
 	Hover over a highlighted object you want to identify.
 
@@ -144,6 +142,10 @@ The below steps are for recording business flow of logging into the Advantage On
 	**Note:**  You can select only available objects in proximity on the web page or application.
 
 	You cannot add a relation if the object you selected has a circular relation with the object you want to identify. **Circular relation:** A series of objects defined by their proximity to one another, where the last object is defined by its proximity to the first.
+
+	To add a relationship with **"Shopping_Cart"** object identification, hover over the **"Shopping_Cart"** icon, select **"+Relation"** to add relation with **Help** icon next to it and then select **Click** operation
+
+	**AIUtil("shopping_cart", micAnyText, micWithAnchorBelow, AIUtil("help")).Click**
 
 11. Hover over the **Checkout** button and select **Click** operation
 
@@ -167,7 +169,7 @@ The below steps are for recording business flow of logging into the Advantage On
 
 	**AIUtil("button", "PAY NOW").Click**
 
-	**Also notice that the "MaterCard" option icon in the ORDER PAYMENT screen is not recognized using AI based identification. You can provide feedback about this to Micro Focus R&D team by following the instructions on** [Feedback Tool to share about AI based object identication]()
+	**Also notice that the "MaterCard" option icon in the ORDER PAYMENT screen is not recognized using AI based identification. You can provide feedback about this to Micro Focus R&D team by following the instructions on** [Feedback Tool to share about AI based object identication](http://localhost:1313/40_create_uft_ai_based_test/7_ai_based_testing_feedback_tool.html)
 
 14. Add a **Checkpoint** to verify successful payment confirmation
 

@@ -50,11 +50,11 @@ As prerequisite **REGISTER** on the Feedback server by providing necessary detai
 
 2.	Click **AI Identification** from the UFT Toolbar to inspect the below **"ORDER PAYMENT"** page
 
-	![step 1](/images/30_Create_UFT_AI_Based_Test/feedback.PNG)
+	![step 1](/images/40_Create_UFT_AI_Based_Test/feedback.PNG)
 
 3. Click **How is the detection? Help us improve** to open the Feedback Tool and **LOGIN** to the Feedback server
 
 4. Mark the **"MasterCredit"** object not identified by AI and share feedback
 
-	![step 2](/images/30_Create_UFT_AI_Based_Test/master_credit.png)
+	![step 2](/images/40_Create_UFT_AI_Based_Test/master_credit.png)
 
