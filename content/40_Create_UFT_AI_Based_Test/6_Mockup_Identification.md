@@ -7,7 +7,7 @@ pre: "<b>4.6 </b>"
 
 ## AI Mockup Identification overview
 
-**Supported on UFT One versions 15.0.2 and later**
+**Supported on UFT One versions 15.0.2 or later**
 
 Use **AI Mockup Identification** to inspect application mockups and identify objects you could use in your test. In this way, you can prepare your test much earlier and design your test even before your application is fully developed.
 
@@ -15,7 +15,7 @@ Use **AI Mockup Identification** to inspect application mockups and identify obj
 
 **AI Mockup Identification** requires no web or mobile application. Instead, you need to load images in **.jpg, .jpeg, or .png** format from a local folder.
 
-Inspect application mockups
+##### Inspect application mockups
 
 1. In the UFT One toolbar, click the down arrow near the **AI Identification** button  and select the **AI Mockup Identification**.
 

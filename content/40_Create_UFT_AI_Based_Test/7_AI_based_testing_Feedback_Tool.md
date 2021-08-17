@@ -8,13 +8,13 @@ pre: "<b>4.7 </b>"
 ## AI-based testing Feedback Tool overview
 
 Artificial Intelligence (AI) makes it possible for software to learn from experience by collecting data, comparing it to the expected output, recognizing patterns, and then making adjustments and adapting.
-To improve our UFT AI model, we need to collect more data. This data consists primarily of snapshots and explanations regarding any misidentifications.
+To improve our UFT One AI model, we need to collect more data. This data consists primarily of snapshots and explanations regarding any misidentifications.
 
 When using AI to inspect your application for objects, you can send feedback directly to Micro Focus.
 
 Let us know how well we identified the objects in your application and help improve the identification in the future.
 
-1.	Click **AI Identification** from the UFT Toolbar to inspect a screen.
+1.	Click **AI Identification** from the UFT One Toolbar to inspect a screen.
 
 2.	Click **How is the detection? Help us improve** to open the Feedback Tool and send **Micro Focus** feedback about the object identification.
 
@@ -48,7 +48,7 @@ As prerequisite **REGISTER** on the Feedback server by providing necessary detai
 
 1.	Navigate to the below (at Step #2) **"ORDER PAYMENT"** page of the AOS application
 
-2.	Click **AI Identification** from the UFT Toolbar to inspect the below **"ORDER PAYMENT"** page
+2.	Click **AI Identification** from the UFT One Toolbar to inspect the below **"ORDER PAYMENT"** page
 
 	![step 1](/images/40_Create_UFT_AI_Based_Test/feedback.PNG)
 

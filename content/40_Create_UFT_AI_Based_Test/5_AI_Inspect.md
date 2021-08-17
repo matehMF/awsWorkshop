@@ -7,7 +7,7 @@ pre: "<b>4.5 </b>"
 
 ## UFT One AI Inspect overview
 
-Use **AI inspection** to identify objects in your application under test (AUT), that you can use in your test steps.
+Use **AI Inspection** to identify objects in your application under test (AUT), that you can use in your test steps.
 
 To identify all objects on the web page, open the **AI Identification View window** to inspect your application and detect all AI objects in it.
 
@@ -31,7 +31,7 @@ In the below steps, we are adding an additional AI-based test step using **AI Id
 
 1. Navigate to the **"HP ENVY - 17T TOUCH LAPTOP"** web page on AOS application as shown in the screenshot in step #2 below
 
-2. Click the **AI Identification** toolbar button, click on the **"HP ENVY - 17T TOUCH LAPTOP"** web page opened in previous step
+2. Click the **AI Identification** toolbar button, click on the **"HP ENVY - 17T TOUCH LAPTOP"** web page that was opened in the previous step
 
 	The **AI Identification View** displays an image of the application, highlighting all of the detected **Visual Element** objects on the page.
 

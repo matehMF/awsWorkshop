@@ -87,9 +87,9 @@ The below steps are for recording business flow of logging into the Advantage On
 
 	A tooltip displays, from which you can add a checkpoint for the object.
 
-	Click **Add Checkpoint** on the tooltip.
+	Click **Add Checkpoint** in the tooltip.
 
-	Select **Exist** or **Not Exist** for verify existence.
+	Select **Exist** or **Not Exist** to verify existence.
 
 	Select True to check if the state is On or False to check if the state is Off.
 
@@ -169,7 +169,7 @@ The below steps are for recording business flow of logging into the Advantage On
 
 	**AIUtil("button", "PAY NOW").Click**
 
-	**Also notice that the "MaterCard" option icon in the ORDER PAYMENT screen is not recognized using AI based identification. You can provide feedback about this to Micro Focus R&D team by following the instructions on** [Feedback Tool to share about AI based object identication](http://localhost:1313/40_create_uft_ai_based_test/7_ai_based_testing_feedback_tool.html)
+	**Also notice that the "MaterCard" option icon in the ORDER PAYMENT screen is not recognized using AI based identification. You can provide feedback about this to Micro Focus R&D team by following the instructions on [Feedback Tool to share about AI based object identication](/40_create_uft_ai_based_test/7_ai_based_testing_feedback_tool.html)**
 
 14. Add a **Checkpoint** to verify successful payment confirmation
 

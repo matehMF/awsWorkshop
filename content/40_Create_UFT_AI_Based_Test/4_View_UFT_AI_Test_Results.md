@@ -5,9 +5,9 @@ weight: 44
 pre: "<b>4.4 </b>"
 ---
 
-## UFT AI Test Run Report
+## UFT One AI Test Run Report
 
-By default, after test execution the UFT One **Run Results Viewer** opens automatically at the end of a run session.
+By default, after test execution, the UFT One **Run Results Viewer** opens automatically at the end of the run session.
 
 The **Run Results Tree Pane** and **Search Box** displays a hierarchical representation of the run results.
 
