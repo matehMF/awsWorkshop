@@ -20,7 +20,7 @@ Some advantages of AI-based object identification are:
 3. Tests are easier to maintain, as an object changing location, UI framework, or even shape, won’t break the test script as long as the object remains visually similar or its purpose remains clear.
 
 
-In this version of **UFT One 15.0.2** release, the AI Features are enabled by default. If you ever need to disable and re-enable them, open **Tools > Options > GUI Testing > AI, and clear/select the AI active option.**
+In this version of **UFT One 15.0.2** release, the AI Features are enabled by default. If you ever need to disable and re-enable them, open **Tools > Options > GUI Testing > AI**, and clear/select the AI active option.
 
 
 ## Open UFT One application and create a GUI Test
