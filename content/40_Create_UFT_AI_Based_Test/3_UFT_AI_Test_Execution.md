@@ -27,17 +27,19 @@ You can define record and run settings using the UFT One **Record and Run Settin
 
 	![step 2](/images/40_Create_UFT_AI_Based_Test/RnR_settings.png)
 
-3. Click on **OK** 
+	Click on **OK** 
 
-4. You should also configure "Save still image captures to results" to "Always" option in order to view the screenshots in the test results
+3. You should also configure "Save still image captures to results" to "Always" in order to view the screenshots in the test results
 
-	To enable screenshots capture in results navigate to **Tools > Options > GUI Test > Screen Capture** and select
+	To enable screenshot capture in the test results, navigate to **Tools > Options > GUI Test > Screen Capture** and select
 
 	**"Save still image captures to results": "Always"**
 
 	![step 3](/images/40_Create_UFT_AI_Based_Test/screen_capture.PNG)
 
-5. Click on **Run** button from the UFT One menu to execute the test
+	Click on **OK** 
+	
+4. Click on **Run** button from the UFT One menu to execute the test
 
 Alternatively the below lines of code can be added at the beginning of the test to open Microsoft Internet Explorer and navigate to AOS URL
 
