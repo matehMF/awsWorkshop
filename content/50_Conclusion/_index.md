@@ -9,10 +9,10 @@ In this workshop, we demonstrated how UFT One provides a DevOps-enabled toolchai
 
 Now that you have a better understanding of how UFT One continues to innovate, let us help learn more about Micro Focus' industry-leading functional test automation solution.
 
-> [Explore benefits and capabilities ›](https://www.microfocus.com/en-us/products/uft-one/overview)
+>[**Join our UFT One Community.** Start collaborating with like-minded users like you.](https://community.microfocus.com/adtd/uft)
 >
-> [See what's new in UFT One ›](https://www.microfocus.com/media/what's-new/micro-focus-unified-functional-testing-whats-new.pdf)
+>[**Dive deep into UFT One.** Learn what’s new and more in our Online Help Center.](https://admhelp.microfocus.com/uft/en/latest/UFT_Help/Content/Resources/_TopNav/_TopNav_Home.htm)
 >
-> [Learn about UFT One's AI capabilities ›](https://players.brightcove.net/5456344257001/HkaDA1joZ_default/index.html?videoId=6198914670001&utm_campaign=00175416)
+>[**See what real UFT One users have to say.** Read over a dozen case studies.](https://www.microfocus.com/en-us/resource-center/case-study?product=UFT%20One)
 >
-> [See how one customer leverages UFT One's AI ›](https://content.microfocus.com/vuna-adm-automation-testing/how-ai-cut-new-mobile?utm_campaign=vuna)
+>[**Take the time to learn more.** Explore our marketplace of available educational courses.](https://marketplace.microfocus.com/education/category/all?product=UFT-One)

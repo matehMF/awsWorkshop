@@ -16,6 +16,6 @@ UFT One is also a leader in the AI revolution for test automation. Its AI-based 
 
 > See the benefits of combining AI-based capabilities with intelligent test automation:
 >
-> [Watch the video ›](https://www.youtube.com/watch?v=pBGh0qbA6OQ&utm_campaign=00175416)
+> [Watch the video ›](https://players.brightcove.net/5456344257001/HkaDA1joZ_default/index.html?videoId=6198914670001&utm_campaign=00175416)
 
 ![UFT One AI](/images/10_introduction/uft-one-ai.jpg)
