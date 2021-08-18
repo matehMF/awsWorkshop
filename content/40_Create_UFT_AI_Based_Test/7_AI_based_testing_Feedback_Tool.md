@@ -20,7 +20,7 @@ Let us know how well we identified the objects in your application and help impr
 
 3.	Before you can send any feedback, you must register and log in to the feedback server.
 
-	**Register** to the server once, and use the credentials you set up to log in each time you open the feedback tool.
+	**Register** to the server once, and use the credentials you set up to log in each time you open the Feedback Tool.
 
 4. After you log in to the feedback server, you can send Micro Focus feedback about the identification.
 
@@ -28,31 +28,31 @@ Let us know how well we identified the objects in your application and help impr
 
 	It will be considered in future releases of AI-based testing as Micro Focus continues to expand and enhance these capabilities.
 
-5. Mark the object that was not properly identified by AI, Move and resize the highlighted grid to fit the object that you want to mark.
+5. Mark the object that was not properly identified by AI, move and resize the highlighted grid to fit the object that you want to mark.
 
 	Enter an object type and press Enter. The object type can be one of the types supported by AI-based testing or a suggestion for a new type.
 
 	See [AI-based testing: Supported control types](https://admhelp.microfocus.com/uft/en/15.0-15.0.2/UFT_Help/Content/User_Guide/AI-supported-types.htm).
 
-	If your application displays sensitive data that you do not want to include in the feedback that you send, you can blur it using the feedback tool: Click the **Pixelate**  button.
+	If your application displays sensitive data that you do not want to include in the feedback that you send, you can blur it using the Feedback Tool: Click the **Pixelate**  button.
 
 6. If you do not have access to the feedback server, you can save your feedback locally and email it directly to Micro Focus.
 
-7.	Click **SEND FEEDBACK** and Close the Feedback Tool.
+7.	Click **SEND FEEDBACK** and close the Feedback Tool.
 
-## Share Feedback to Micro Focus using AI-based testing Feedback Tool
+## Share feedback with Micro Focus by using the AI-based testing feedback tool
 
-The below steps are to provide the Feedback using AI-based testing feedback tool for the "MasterCredit" image that was not idenfied when using the **AI Recording**
+The following steps show how to provide feedback using the AI-based testing Feedback Tool for the "MasterCredit" image that was not identified when using **AI Recording**.
 
-As prerequisite **REGISTER** on the Feedback server by providing necessary details
+As prerequisite, **REGISTER** with the feedback server by providing necessary details
 
-1.	Navigate to the below (at Step #2) **"ORDER PAYMENT"** page of the AOS application
+1.	Navigate to the **"ORDER PAYMENT"** page of the AOS application (step #2)
 
-2.	Click **AI Identification** from the UFT One Toolbar to inspect the below **"ORDER PAYMENT"** page
+2.	Click **AI Identification** from the UFT One toolbar to inspect the **"ORDER PAYMENT"** page:
 
 	![step 1](/images/40_Create_UFT_AI_Based_Test/feedback.PNG)
 
-3. Click **How is the detection? Help us improve** to open the Feedback Tool and **LOGIN** to the Feedback server
+3. Click **How is the detection? Help us improve** to open the Feedback Tool and **LOGIN** to the feedback server
 
 4. Mark the **"MasterCredit"** object not identified by AI and share feedback
 

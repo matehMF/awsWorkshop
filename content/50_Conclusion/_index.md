@@ -7,7 +7,7 @@ pre: "<b>5 </b>"
 
 In this workshop, we demonstrated how UFT One provides a DevOps-enabled toolchain for continuous testing and integration with CI/CD and version control tools. This workshop also highlighted recent innovations in AI-based testing that are sure to start revolutionizing the way you test.
 
-Now that you have a better understanding of how UFT One continues to innovate, let us help learn more about Micro Focus' industry-leading functional test automation solution.
+Now that you have a better understanding of how UFT One continues to innovate, let us help you to learn more about Micro Focus' industry-leading functional test automation solution.
 
 > [Explore benefits and capabilities ›](https://www.microfocus.com/en-us/products/uft-one/overview)
 >

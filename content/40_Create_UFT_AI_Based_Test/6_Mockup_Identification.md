@@ -7,13 +7,13 @@ pre: "<b>4.6 </b>"
 
 ## AI Mockup Identification overview
 
-**Supported on UFT One versions 15.0.2 or later**
+**Available from UFT One 15.0.2 or later**
 
 Use **AI Mockup Identification** to inspect application mockups and identify objects you could use in your test. In this way, you can prepare your test much earlier and design your test even before your application is fully developed.
 
 #### Prerequisites
 
-**AI Mockup Identification** requires no web or mobile application. Instead, you need to load images in **.jpg, .jpeg, or .png** format from a local folder.
+**AI Mockup Identification** does not require a web or mobile application. Instead, it uses images stored in **.jpg, .jpeg, or .png** format in a local folder.
 
 ##### Inspect application mockups
 
@@ -35,21 +35,21 @@ Use **AI Mockup Identification** to inspect application mockups and identify obj
 
 	Click Choose different to select a different folder of images to inspect.
 
-	To achieve optimal identification, edit settings on the inspected page:
+	To achieve optimal identification, configure the settings on the inspected page:
 
-	Select **Visual Element** or **Text** to show either the objects that UFT One identified visually or areas of text.
+	* Select **Visual Element** or **Text** to show either the objects that UFT One identified visually or areas of text.
 
-	Select **Web** or **Mobile** to change your AI identification context again.
+	* Select **Web** or **Mobile** to change your AI identification context again.
 
-## Create AI-based test using Mockup identification
+## Create an AI-based test using Mockup identification
 
-Thanks to the Computer Vision, you can **start test Design without application**. You can easily Build an AI-based test script based on application Mockup
+Thanks to UFT One's computer vision, you can start test Design without an application. You can easily build an AI-based test script based on an application mockup.
 
-Now let's create an AI based test script for AOS application login using application Mockup screens
+Let's create an AI-based test script for the AOS application's login, using the application's mockup screens
 
-As a prerequisite, store AOS application images in **.jpg, .jpeg, or .png** format in a local folder path: "C:\Users\demo\Documents\Mockups".
+As a prerequisite, store the AOS application images in **.jpg, .jpeg, or .png** format in a local folder path: "C:\Users\demo\Documents\Mockups".
 
-**Note:** You can right click on the **Mockup images** of AOS application in the below steps to download and save them to the local folder
+**Note:** You can right click on the **Mockup images** of AOS application in the following steps to download and save them to the local folder
 
 1. In the UFT One toolbar, click the down arrow near the **AI Identification** button  and select the **AI Mockup Identification**.
 

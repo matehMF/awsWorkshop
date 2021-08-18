@@ -27,19 +27,19 @@ To open the window, do one of the following:
 
 ## Identify Test Objects using UFT One AI Inspect
 
-In the below steps, we are adding an additional AI-based test step using **AI Identification** to the existing AI-based test that was created using **AI Recording** earlier
+In the following steps, we will add an AI-based test step using **AI Identification** to the existing AI-based test that was created using **AI Recording** earlier.
 
 1. Navigate to the **"HP ENVY - 17T TOUCH LAPTOP"** web page on AOS application as shown in the screenshot in step #2 below
 
-2. Click the **AI Identification** toolbar button, click on the **"HP ENVY - 17T TOUCH LAPTOP"** web page that was opened in the previous step
+2. Click the **AI Identification** toolbar button, and click on the **"HP ENVY - 17T TOUCH LAPTOP"** page that was opened in the previous step
 
-	The **AI Identification View** displays an image of the application, highlighting all of the detected **Visual Element** objects on the page.
+	The **AI Identification View** displays an image of the application, and highlights all of the detected **Visual Element** objects on the page.
 
 	![step 1](/images/40_Create_UFT_AI_Based_Test/ai_inspect_visual_element.PNG)
 
-	Drag and drop the **Visual element "Plus"** button object to the test, just before the **Add to Cart** step to select additional quantity of the item chosen.
+	Drag and drop the visual element **"+"** button object to the test, just before the **Add to Cart** step, to select an additional quantity of the item chosen.
 
-	Now the updated test steps looks as below:
+	The updated test steps should look as follows:
 
 	.....................................................
 
@@ -49,5 +49,5 @@ In the below steps, we are adding an additional AI-based test step using **AI Id
 
 	.....................................................
 
-Similarly you to can use the **AI Identification** to update any existing AI-based test step in your test
+Similarly you can use the **AI Identification** to update any existing AI-based test step in your test.
 
