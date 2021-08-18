@@ -1,8 +1,8 @@
 ---
 title: "AWS Account"
 chapter: false
-weight: 21
-pre: "<b>2.1 </b>"
+weight: 22
+pre: "<b>2.2 </b>"
 ---
 
 {{% notice warning %}}
